@@ -24,7 +24,8 @@ namespace RazorPagesMovie.Models
                         Title = "Bee Movie",
                         ReleaseDate = DateTime.Parse("05-10-2005"),
                         Genre = "Comédia",
-                        Price = 71M
+                        Price = 71M,
+                        Rating = "Livre"
                     },
 
                     new Movie
@@ -32,7 +33,8 @@ namespace RazorPagesMovie.Models
                         Title = "El Dourado",
                         ReleaseDate = DateTime.Parse("10-05-2002"),
                         Genre = "Aventura",
-                        Price = 40M
+                        Price = 40M,
+                        Rating = "Livre"
                     },
 
                     new Movie
@@ -40,7 +42,8 @@ namespace RazorPagesMovie.Models
                         Title = "Liga da Justiça",
                         ReleaseDate = DateTime.Parse("16-05-2004"),
                         Genre = "Heróis",
-                        Price = 59M
+                        Price = 59M,
+                        Rating = "14 anos"
                     },
 
                     new Movie
@@ -48,7 +51,8 @@ namespace RazorPagesMovie.Models
                         Title = "Norbit",
                         ReleaseDate = DateTime.Parse("14-07-2008"),
                         Genre = "Comédia",
-                        Price = 92M
+                        Price = 92M,
+                        Rating = "14 anos"
                     }
                     );
                 context.SaveChanges();
